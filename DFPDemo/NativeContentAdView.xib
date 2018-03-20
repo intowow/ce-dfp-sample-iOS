@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GADNativeContentAdView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75x-26-Ckt">
+                    <rect key="frame" x="256" y="276.5" width="109" height="33"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <state key="normal" title="Call to Action">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KN-iI-uIn">
+                    <rect key="frame" x="60" y="10" width="315" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="w8Q-iR-oYc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b7l-GF-JB9">
+                    <rect key="frame" x="10" y="10" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="jNM-KE-LXQ"/>
+                        <constraint firstAttribute="height" constant="40" id="kaJ-1I-IxM"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body that is allowed to take up to 6 lines" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tj-27-v66">
+                    <rect key="frame" x="10" y="50" width="355" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tYV-3h-p0P">
+                    <rect key="frame" x="10" y="72" width="355" height="199.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tYV-3h-p0P" secondAttribute="height" multiplier="16:9" id="ini-SF-LZh"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advertiser" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVF-DW-6Jc">
+                    <rect key="frame" x="173" y="285" width="73" height="17"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.86369645595550537" green="0.86367058753967285" blue="0.8636852502822876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tYV-3h-p0P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="0fa-7G-UrP"/>
+                <constraint firstItem="4Tj-27-v66" firstAttribute="top" secondItem="b7l-GF-JB9" secondAttribute="bottom" id="1Zy-e9-mZI"/>
+                <constraint firstItem="75x-26-Ckt" firstAttribute="top" secondItem="tYV-3h-p0P" secondAttribute="bottom" constant="5" id="2ZZ-dD-OFw"/>
+                <constraint firstItem="9KN-iI-uIn" firstAttribute="leading" secondItem="b7l-GF-JB9" secondAttribute="trailing" constant="10" id="54G-se-a4V"/>
+                <constraint firstAttribute="trailing" secondItem="75x-26-Ckt" secondAttribute="trailing" constant="10" id="6dg-f1-aao"/>
+                <constraint firstItem="tYV-3h-p0P" firstAttribute="top" secondItem="4Tj-27-v66" secondAttribute="bottom" constant="5" id="7AF-ne-pgW"/>
+                <constraint firstItem="b7l-GF-JB9" firstAttribute="leading" secondItem="4Tj-27-v66" secondAttribute="leading" id="KJA-Yi-EbU"/>
+                <constraint firstItem="b7l-GF-JB9" firstAttribute="top" secondItem="9KN-iI-uIn" secondAttribute="top" id="TBu-k6-3b7"/>
+                <constraint firstItem="b7l-GF-JB9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="VWa-kv-Vhd"/>
+                <constraint firstAttribute="trailing" secondItem="4Tj-27-v66" secondAttribute="trailing" constant="10" id="XSH-44-BHz"/>
+                <constraint firstAttribute="trailing" secondItem="9KN-iI-uIn" secondAttribute="trailing" id="d7A-Ii-3PF"/>
+                <constraint firstItem="75x-26-Ckt" firstAttribute="leading" secondItem="FVF-DW-6Jc" secondAttribute="trailing" constant="10" id="f9l-bp-WGE"/>
+                <constraint firstItem="75x-26-Ckt" firstAttribute="centerY" secondItem="FVF-DW-6Jc" secondAttribute="centerY" id="k56-8T-4Lm"/>
+                <constraint firstAttribute="trailing" secondItem="tYV-3h-p0P" secondAttribute="trailing" constant="10" id="sas-Wa-8vz"/>
+                <constraint firstItem="b7l-GF-JB9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="yKZ-Ka-gFw"/>
+            </constraints>
+            <connections>
+                <outlet property="advertiserView" destination="FVF-DW-6Jc" id="FS6-SR-p5H"/>
+                <outlet property="bodyView" destination="4Tj-27-v66" id="AhI-WT-zRt"/>
+                <outlet property="callToActionView" destination="75x-26-Ckt" id="lRk-fS-llC"/>
+                <outlet property="headlineView" destination="9KN-iI-uIn" id="1qH-78-1qW"/>
+                <outlet property="imageView" destination="tYV-3h-p0P" id="4Q3-qV-Myh"/>
+                <outlet property="logoView" destination="b7l-GF-JB9" id="ul3-RO-ekr"/>
+            </connections>
+            <point key="canvasLocation" x="304.5" y="241.5"/>
+        </view>
+    </objects>
+</document>

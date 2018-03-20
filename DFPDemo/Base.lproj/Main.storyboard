@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NVk-ps-32S"/>
+                        <viewControllerLayoutGuide type="bottom" id="99d-7N-JZE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edE-1L-4vx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Q9Y-Ed-tEN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <view opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PTh-cL-Kmz" userLabel="adUIView">
+                                        <rect key="frame" x="13" y="78" width="349" height="369"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfa-yE-32I">
+                                                <rect key="frame" x="12" y="31" width="320" height="180"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="pfa-yE-32I" secondAttribute="height" multiplier="16:9" id="SMj-5B-F80"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="pfa-yE-32I" firstAttribute="top" secondItem="PTh-cL-Kmz" secondAttribute="top" constant="31" id="G7l-xl-ztm"/>
+                                            <constraint firstAttribute="trailing" secondItem="pfa-yE-32I" secondAttribute="trailing" constant="17" id="JiO-Mg-FTq"/>
+                                            <constraint firstItem="pfa-yE-32I" firstAttribute="leading" secondItem="PTh-cL-Kmz" secondAttribute="leading" constant="12" id="ktV-0F-1w0"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="0.37" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1b-Qi-x8p">
+                                        <rect key="frame" x="13" y="507" width="349" height="40"/>
+                                        <color key="backgroundColor" red="0.91716746790000003" green="0.64823166369999996" blue="0.60826240980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="z2d-CU-BUu"/>
+                                        </constraints>
+                                        <state key="normal" title="Load Banner AD"/>
+                                        <connections>
+                                            <action selector="loadBannerBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gLP-id-epu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYX-e0-U5t">
+                                        <rect key="frame" x="13" y="555" width="349" height="40"/>
+                                        <color key="backgroundColor" red="0.91716746790000003" green="0.64823166369999996" blue="0.60826240980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="5bM-30-ObW"/>
+                                        </constraints>
+                                        <state key="normal" title="Load Interstitial AD"/>
+                                        <connections>
+                                            <action selector="loadInterstitialBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J5j-Av-Yas"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="PTh-cL-Kmz" secondAttribute="bottom" constant="220" id="6Nh-yP-ar4"/>
+                                    <constraint firstItem="SYX-e0-U5t" firstAttribute="leading" secondItem="P1b-Qi-x8p" secondAttribute="leading" id="KK2-1k-ZtN"/>
+                                    <constraint firstItem="PTh-cL-Kmz" firstAttribute="trailing" secondItem="P1b-Qi-x8p" secondAttribute="trailing" id="bz5-HK-VDa"/>
+                                    <constraint firstItem="SYX-e0-U5t" firstAttribute="trailing" secondItem="P1b-Qi-x8p" secondAttribute="trailing" id="chf-Am-eXb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q9Y-Ed-tEN" secondAttribute="trailing" id="dIp-FH-1kV"/>
+                                    <constraint firstItem="PTh-cL-Kmz" firstAttribute="leading" secondItem="P1b-Qi-x8p" secondAttribute="leading" id="dTL-tc-pIY"/>
+                                    <constraint firstItem="SYX-e0-U5t" firstAttribute="top" secondItem="P1b-Qi-x8p" secondAttribute="bottom" constant="8" id="gp6-wt-0Gk"/>
+                                    <constraint firstItem="Q9Y-Ed-tEN" firstAttribute="top" secondItem="edE-1L-4vx" secondAttribute="top" id="hci-KM-eTQ"/>
+                                    <constraint firstItem="PTh-cL-Kmz" firstAttribute="centerX" secondItem="edE-1L-4vx" secondAttribute="centerX" id="kOL-8u-SDs"/>
+                                    <constraint firstItem="PTh-cL-Kmz" firstAttribute="top" secondItem="edE-1L-4vx" secondAttribute="top" constant="78" id="lgs-6m-y11"/>
+                                    <constraint firstItem="Q9Y-Ed-tEN" firstAttribute="leading" secondItem="edE-1L-4vx" secondAttribute="leading" id="mRX-hc-HkO"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q9Y-Ed-tEN" secondAttribute="bottom" id="qGO-cA-ulk"/>
+                                    <constraint firstItem="P1b-Qi-x8p" firstAttribute="top" secondItem="PTh-cL-Kmz" secondAttribute="bottom" constant="60" id="wYE-AC-agf"/>
+                                    <constraint firstItem="PTh-cL-Kmz" firstAttribute="leading" secondItem="edE-1L-4vx" secondAttribute="leadingMargin" constant="5" id="xyA-e7-Nlg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="edE-1L-4vx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C5g-bf-Ehm"/>
+                            <constraint firstAttribute="trailing" secondItem="edE-1L-4vx" secondAttribute="trailing" id="Wou-TU-KZN"/>
+                            <constraint firstItem="edE-1L-4vx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qd3-zS-Vbe"/>
+                            <constraint firstItem="edE-1L-4vx" firstAttribute="bottom" secondItem="99d-7N-JZE" secondAttribute="top" id="yIH-Y5-frc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="adMediaCoverView" destination="pfa-yE-32I" id="gLx-4q-vFU"/>
+                        <outlet property="adUIView" destination="PTh-cL-Kmz" id="UMt-sl-I5f"/>
+                        <outlet property="loadBannerBtn" destination="P1b-Qi-x8p" id="1Si-Mh-eiI"/>
+                        <outlet property="loadInterstitialBtn" destination="SYX-e0-U5t" id="kMu-2N-pbJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="720" height="1280"/>
+    </resources>
+</document>
