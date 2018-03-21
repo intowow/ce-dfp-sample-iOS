@@ -2,7 +2,7 @@
 
 ## Mediate CrystalExpress Ads through DFP
 
-The full integration guide: https://intowow.gitbooks.io/crystalexpress-documentation-v3-x/content/mediation-guidelines/admob/ios.html
+The full integration guide: https://intowow.gitbooks.io/crystalexpress-documentation-v3-x/content/mediation-guidelines/dfp/ios.html
 
 The CrystalExpress DFO Custom Event allows DFP publishers to add CrystalExpress as a Custom Ad Network within the DFP platform.
 
