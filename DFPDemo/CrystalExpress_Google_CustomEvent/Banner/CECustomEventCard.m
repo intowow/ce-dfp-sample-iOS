@@ -9,7 +9,7 @@
 #import "CECardAD.h"
 #import "UIView+CELayoutAdditions.h"
 
-#define LoadAdTimeout 10
+#define LoadAdTimeout 1
 
 /// Constant for CrystalExpress Ad Network custom event error domain.
 static NSString *const customEventErrorDomain = @"com.intowow.CrystalExpress";
