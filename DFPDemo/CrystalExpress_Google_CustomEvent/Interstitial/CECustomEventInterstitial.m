@@ -1,4 +1,4 @@
-//  Minimum support Intowow SDK 3.20.0
+//  Minimum support Intowow SDK 3.27.0
 //
 //  CECustomEventInterstitial.m
 //
@@ -35,9 +35,12 @@ static NSString *const customEventErrorDomain = @"com.intowow.CrystalExpress";
         return;
     }
 
-    self.ceSplashAD = [[CESplash2AD alloc] initWithPlacement:placement];
+    CERequestInfo *info = [CERequestInfo new];
+    info.placement = placement;
+    info.timeout = LoadAdTimeout;
+    self.ceSplashAD = [[CESplash2AD alloc] initWithVideoViewProfile:CEVideoViewProfileSplash2DefaultProfile];
     self.ceSplashAD.delegate = self;
-    [self.ceSplashAD loadAdWithTimeout:LoadAdTimeout];
+    [self.ceSplashAD loadAdWithInfo:info];
 }
 
 - (void)presentFromRootViewController:(nonnull UIViewController *)rootViewController {

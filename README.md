@@ -16,12 +16,16 @@ CrystalExpress provides two ad formats for DFP mediation. The relationship betwe
 Before adding CrystalExpress as Custom network, you have to integrate DFP SDK by following the instructions on the [DFP website](https://developers.google.com/mobile-ads-sdk/docs/dfp/ios/quick-start).
 
 
-** NOTICE: This porject does not contain CrystalExpress SDK. Please contact your Intowow account manager. We will provide the appropriate version of SDK and Crystal ID to fit your needs.**
+** NOTICE: This porject does not contain CrystalExpress SDK. Please contact your Intowow account manager. We will provide the appropriate version of SDK and Crystal ID to fit your needs.**
 
 The custom event is under folder 'DFPDemo/CrystalExpress_Google_CustomEvent/'
 
 
 ## CHANGELOG
+
+#### Version 2 (2018-04-02)
+* Use new interface to request AD.
+
 
 #### Version 1 (2018-03-20)
 * Implement DFP Custom Events.

@@ -1,4 +1,4 @@
-//  Minimum support Intowow SDK 3.14.0
+//  Minimum support Intowow SDK 3.27.0
 //
 //  CECustomEventCard.h
 //

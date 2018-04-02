@@ -1,4 +1,4 @@
-//  Minimum support Intowow SDK 3.20.0
+//  Minimum support Intowow SDK 3.27.0
 //
 //  CECustomEventInterstitial.h
 //
