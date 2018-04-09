@@ -8,6 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <GoogleMobileAds/GADCustomEventInterstitial.h>
 
-@interface CECustomEventInterstitial : NSObject <GADCustomEventInterstitial>
+@interface CEDFPCustomEventInterstitial : NSObject <GADCustomEventInterstitial>
 
 @end

@@ -9,6 +9,6 @@
 
 @import GoogleMobileAds;
 
-@interface CECustomEventCard : NSObject<GADCustomEventBanner>
+@interface CEDFPCustomEventCard : NSObject<GADCustomEventBanner>
 
 @end

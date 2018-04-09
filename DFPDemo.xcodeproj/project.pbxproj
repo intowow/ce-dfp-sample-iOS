@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		970411822060DC1A00EFB852 /* CECustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411702060DC1A00EFB852 /* CECustomEventInterstitial.m */; };
+		970411822060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411702060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m */; };
 		970411832060DC1A00EFB852 /* UIView+CELayoutAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411732060DC1A00EFB852 /* UIView+CELayoutAdditions.m */; };
-		970411882060DC1A00EFB852 /* CECustomEventCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411802060DC1A00EFB852 /* CECustomEventCard.m */; };
+		970411882060DC1A00EFB852 /* CEDFPCustomEventCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411802060DC1A00EFB852 /* CEDFPCustomEventCard.m */; };
 		97D128EC20313A97004A7570 /* NativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D128EB20313A97004A7570 /* NativeContentAdView.xib */; };
 		97D128F52031A749004A7570 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D128F42031A749004A7570 /* libz.tbd */; };
 		97D128F72031A751004A7570 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D128F62031A751004A7570 /* libsqlite3.tbd */; };
@@ -43,12 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		970411702060DC1A00EFB852 /* CECustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECustomEventInterstitial.m; sourceTree = "<group>"; };
-		970411712060DC1A00EFB852 /* CECustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECustomEventInterstitial.h; sourceTree = "<group>"; };
+		970411702060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDFPCustomEventInterstitial.m; sourceTree = "<group>"; };
+		970411712060DC1A00EFB852 /* CEDFPCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDFPCustomEventInterstitial.h; sourceTree = "<group>"; };
 		970411732060DC1A00EFB852 /* UIView+CELayoutAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CELayoutAdditions.m"; sourceTree = "<group>"; };
 		970411742060DC1A00EFB852 /* UIView+CELayoutAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CELayoutAdditions.h"; sourceTree = "<group>"; };
-		970411802060DC1A00EFB852 /* CECustomEventCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECustomEventCard.m; sourceTree = "<group>"; };
-		970411812060DC1A00EFB852 /* CECustomEventCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECustomEventCard.h; sourceTree = "<group>"; };
+		970411802060DC1A00EFB852 /* CEDFPCustomEventCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDFPCustomEventCard.m; sourceTree = "<group>"; };
+		970411812060DC1A00EFB852 /* CEDFPCustomEventCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDFPCustomEventCard.h; sourceTree = "<group>"; };
 		97D128EB20313A97004A7570 /* NativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeContentAdView.xib; sourceTree = "<group>"; };
 		97D128F42031A749004A7570 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		97D128F62031A751004A7570 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -114,8 +114,8 @@
 		9704116F2060DC1A00EFB852 /* Interstitial */ = {
 			isa = PBXGroup;
 			children = (
-				970411702060DC1A00EFB852 /* CECustomEventInterstitial.m */,
-				970411712060DC1A00EFB852 /* CECustomEventInterstitial.h */,
+				970411702060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m */,
+				970411712060DC1A00EFB852 /* CEDFPCustomEventInterstitial.h */,
 			);
 			path = Interstitial;
 			sourceTree = "<group>";
@@ -132,8 +132,8 @@
 		9704117F2060DC1A00EFB852 /* Banner */ = {
 			isa = PBXGroup;
 			children = (
-				970411802060DC1A00EFB852 /* CECustomEventCard.m */,
-				970411812060DC1A00EFB852 /* CECustomEventCard.h */,
+				970411802060DC1A00EFB852 /* CEDFPCustomEventCard.m */,
+				970411812060DC1A00EFB852 /* CEDFPCustomEventCard.h */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
@@ -349,10 +349,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				970411832060DC1A00EFB852 /* UIView+CELayoutAdditions.m in Sources */,
-				970411822060DC1A00EFB852 /* CECustomEventInterstitial.m in Sources */,
+				970411822060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m in Sources */,
 				97E3A9AA1FDF8A8400A5D420 /* ViewController.m in Sources */,
 				97E3A9B51FDF8A8400A5D420 /* main.m in Sources */,
-				970411882060DC1A00EFB852 /* CECustomEventCard.m in Sources */,
+				970411882060DC1A00EFB852 /* CEDFPCustomEventCard.m in Sources */,
 				97E3A9A71FDF8A8400A5D420 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

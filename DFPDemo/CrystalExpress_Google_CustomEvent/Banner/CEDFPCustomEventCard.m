@@ -5,7 +5,7 @@
 //  Copyright © 2017 intowow. All rights reserved.
 //
 
-#import "CECustomEventCard.h"
+#import "CEDFPCustomEventCard.h"
 #import "CECardAD.h"
 #import "UIView+CELayoutAdditions.h"
 
@@ -14,14 +14,14 @@
 /// Constant for CrystalExpress Ad Network custom event error domain.
 static NSString *const customEventErrorDomain = @"com.intowow.CrystalExpress";
 
-@interface CECustomEventCard () <CECardADDelegate>
+@interface CEDFPCustomEventCard () <CECardADDelegate>
 
 @property (nonatomic, strong) CECardAD *ceCardAd;
 @property (nonatomic, assign) CGSize adSize;
 
 @end
 
-@implementation CECustomEventCard
+@implementation CEDFPCustomEventCard
 
 @synthesize delegate;
 

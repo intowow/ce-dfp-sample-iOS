@@ -5,7 +5,7 @@
 //  Copyright © 2017 intowow. All rights reserved.
 //
 
-#import "CECustomEventInterstitial.h"
+#import "CEDFPCustomEventInterstitial.h"
 #import "CESplash2AD.h"
 
 #define LoadAdTimeout 1
@@ -13,14 +13,14 @@
 /// Constant for CrystalExpress Ad Network custom event error domain.
 static NSString *const customEventErrorDomain = @"com.intowow.CrystalExpress";
 
-@interface CECustomEventInterstitial () <CESplash2ADDelegate>
+@interface CEDFPCustomEventInterstitial () <CESplash2ADDelegate>
 
 @property (nonatomic, strong) CESplash2AD *ceSplashAD;
 
 @end
 
 
-@implementation CECustomEventInterstitial
+@implementation CEDFPCustomEventInterstitial
 
 @synthesize delegate;
 
