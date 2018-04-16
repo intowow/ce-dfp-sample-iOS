@@ -9,7 +9,7 @@
 #import "ViewController.h"
 @import GoogleMobileAds;
 
-@interface ViewController () <GADBannerViewDelegate, GADInterstitialDelegate, GADAdLoaderDelegate>
+@interface ViewController () <GADBannerViewDelegate, GADInterstitialDelegate>
 
 @property(nonatomic, strong) DFPBannerView *bannerView;
 @property(nonatomic, strong) DFPInterstitial *interstitial;

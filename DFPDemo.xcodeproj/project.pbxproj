@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		970411822060DC1A00EFB852 /* CECustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411702060DC1A00EFB852 /* CECustomEventInterstitial.m */; };
+		970411822060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411702060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m */; };
 		970411832060DC1A00EFB852 /* UIView+CELayoutAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411732060DC1A00EFB852 /* UIView+CELayoutAdditions.m */; };
-		970411882060DC1A00EFB852 /* CECustomEventCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411802060DC1A00EFB852 /* CECustomEventCard.m */; };
+		970411882060DC1A00EFB852 /* CEDFPCustomEventCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 970411802060DC1A00EFB852 /* CEDFPCustomEventCard.m */; };
 		97D128EC20313A97004A7570 /* NativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D128EB20313A97004A7570 /* NativeContentAdView.xib */; };
 		97D128F52031A749004A7570 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D128F42031A749004A7570 /* libz.tbd */; };
 		97D128F72031A751004A7570 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D128F62031A751004A7570 /* libsqlite3.tbd */; };
 		97D128F92031A75C004A7570 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D128F82031A75C004A7570 /* libicucore.tbd */; };
-		97D128FB2031A9AE004A7570 /* ce-premium-global-3.23.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D128FA2031A9AE004A7570 /* ce-premium-global-3.23.0.a */; };
 		97E3A9A71FDF8A8400A5D420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9A61FDF8A8400A5D420 /* AppDelegate.m */; };
 		97E3A9AA1FDF8A8400A5D420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9A91FDF8A8400A5D420 /* ViewController.m */; };
 		97E3A9AD1FDF8A8400A5D420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E3A9AB1FDF8A8400A5D420 /* Main.storyboard */; };
@@ -23,13 +22,6 @@
 		97E3A9B51FDF8A8400A5D420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9B41FDF8A8400A5D420 /* main.m */; };
 		97E3A9BF1FDF8A8400A5D420 /* DFPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9BE1FDF8A8400A5D420 /* DFPDemoTests.m */; };
 		97E3A9CA1FDF8A8400A5D420 /* DFPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9C91FDF8A8400A5D420 /* DFPDemoUITests.m */; };
-		97E3A9F31FDF924B00A5D420 /* CETableViewADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9DF1FDF924B00A5D420 /* CETableViewADHelper.m */; };
-		97E3A9F41FDF924B00A5D420 /* CEAdInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9E21FDF924B00A5D420 /* CEAdInvocation.m */; };
-		97E3A9F51FDF924B00A5D420 /* CEStreamPlacementADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9E51FDF924B00A5D420 /* CEStreamPlacementADHelper.m */; };
-		97E3A9F61FDF924B00A5D420 /* CrystalExpress.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97E3A9E71FDF924B00A5D420 /* CrystalExpress.plist */; };
-		97E3A9F81FDF924B00A5D420 /* CEStreamADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9EA1FDF924B00A5D420 /* CEStreamADHelper.m */; };
-		97E3A9F91FDF924B00A5D420 /* CEStreamTagADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3A9EF1FDF924B00A5D420 /* CEStreamTagADHelper.m */; };
-		97E3A9FA1FDF924B00A5D420 /* IWOWMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E3A9F11FDF924B00A5D420 /* IWOWMoatMobileAppKit.framework */; };
 		97E3A9FC1FDF95A200A5D420 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E3A9FB1FDF95A200A5D420 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,17 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		970411702060DC1A00EFB852 /* CECustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECustomEventInterstitial.m; sourceTree = "<group>"; };
-		970411712060DC1A00EFB852 /* CECustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECustomEventInterstitial.h; sourceTree = "<group>"; };
+		970411702060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDFPCustomEventInterstitial.m; sourceTree = "<group>"; };
+		970411712060DC1A00EFB852 /* CEDFPCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDFPCustomEventInterstitial.h; sourceTree = "<group>"; };
 		970411732060DC1A00EFB852 /* UIView+CELayoutAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CELayoutAdditions.m"; sourceTree = "<group>"; };
 		970411742060DC1A00EFB852 /* UIView+CELayoutAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CELayoutAdditions.h"; sourceTree = "<group>"; };
-		970411802060DC1A00EFB852 /* CECustomEventCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CECustomEventCard.m; sourceTree = "<group>"; };
-		970411812060DC1A00EFB852 /* CECustomEventCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECustomEventCard.h; sourceTree = "<group>"; };
+		970411802060DC1A00EFB852 /* CEDFPCustomEventCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDFPCustomEventCard.m; sourceTree = "<group>"; };
+		970411812060DC1A00EFB852 /* CEDFPCustomEventCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDFPCustomEventCard.h; sourceTree = "<group>"; };
 		97D128EB20313A97004A7570 /* NativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeContentAdView.xib; sourceTree = "<group>"; };
 		97D128F42031A749004A7570 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		97D128F62031A751004A7570 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		97D128F82031A75C004A7570 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		97D128FA2031A9AE004A7570 /* ce-premium-global-3.23.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "ce-premium-global-3.23.0.a"; sourceTree = "<group>"; };
 		97E3A9A21FDF8A8400A5D420 /* DFPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E3A9A51FDF8A8400A5D420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97E3A9A61FDF8A8400A5D420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,28 +69,6 @@
 		97E3A9C51FDF8A8400A5D420 /* DFPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E3A9C91FDF8A8400A5D420 /* DFPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFPDemoUITests.m; sourceTree = "<group>"; };
 		97E3A9CB1FDF8A8400A5D420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97E3A9DC1FDF924B00A5D420 /* CEStreamPlacementADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEStreamPlacementADHelper.h; sourceTree = "<group>"; };
-		97E3A9DD1FDF924B00A5D420 /* CESplash2AD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CESplash2AD.h; sourceTree = "<group>"; };
-		97E3A9DE1FDF924B00A5D420 /* I2WAPI+Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "I2WAPI+Deprecated.h"; sourceTree = "<group>"; };
-		97E3A9DF1FDF924B00A5D420 /* CETableViewADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CETableViewADHelper.m; sourceTree = "<group>"; };
-		97E3A9E01FDF924B00A5D420 /* CEStreamADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEStreamADHelper.h; sourceTree = "<group>"; };
-		97E3A9E11FDF924B00A5D420 /* I2WAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I2WAPI.h; sourceTree = "<group>"; };
-		97E3A9E21FDF924B00A5D420 /* CEAdInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEAdInvocation.m; sourceTree = "<group>"; };
-		97E3A9E31FDF924B00A5D420 /* CEAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEAdView.h; sourceTree = "<group>"; };
-		97E3A9E41FDF924B00A5D420 /* CEStreamTagADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEStreamTagADHelper.h; sourceTree = "<group>"; };
-		97E3A9E51FDF924B00A5D420 /* CEStreamPlacementADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEStreamPlacementADHelper.m; sourceTree = "<group>"; };
-		97E3A9E61FDF924B00A5D420 /* CENativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CENativeAd.h; sourceTree = "<group>"; };
-		97E3A9E71FDF924B00A5D420 /* CrystalExpress.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CrystalExpress.plist; sourceTree = "<group>"; };
-		97E3A9E91FDF924B00A5D420 /* CECardAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CECardAD.h; sourceTree = "<group>"; };
-		97E3A9EA1FDF924B00A5D420 /* CEStreamADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEStreamADHelper.m; sourceTree = "<group>"; };
-		97E3A9EB1FDF924B00A5D420 /* CETableViewADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CETableViewADHelper.h; sourceTree = "<group>"; };
-		97E3A9EC1FDF924B00A5D420 /* CEVideoViewProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEVideoViewProfile.h; sourceTree = "<group>"; };
-		97E3A9ED1FDF924B00A5D420 /* CERewardedVideoAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERewardedVideoAD.h; sourceTree = "<group>"; };
-		97E3A9EE1FDF924B00A5D420 /* CENativeImageAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CENativeImageAd.h; sourceTree = "<group>"; };
-		97E3A9EF1FDF924B00A5D420 /* CEStreamTagADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEStreamTagADHelper.m; sourceTree = "<group>"; };
-		97E3A9F01FDF924B00A5D420 /* CEAdInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEAdInvocation.h; sourceTree = "<group>"; };
-		97E3A9F11FDF924B00A5D420 /* IWOWMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IWOWMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		97E3A9F21FDF924B00A5D420 /* CEMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMediaView.h; sourceTree = "<group>"; };
 		97E3A9FB1FDF95A200A5D420 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,8 +81,6 @@
 				97D128F72031A751004A7570 /* libsqlite3.tbd in Frameworks */,
 				97D128F52031A749004A7570 /* libz.tbd in Frameworks */,
 				97E3A9FC1FDF95A200A5D420 /* GoogleMobileAds.framework in Frameworks */,
-				97D128FB2031A9AE004A7570 /* ce-premium-global-3.23.0.a in Frameworks */,
-				97E3A9FA1FDF924B00A5D420 /* IWOWMoatMobileAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +114,8 @@
 		9704116F2060DC1A00EFB852 /* Interstitial */ = {
 			isa = PBXGroup;
 			children = (
-				970411702060DC1A00EFB852 /* CECustomEventInterstitial.m */,
-				970411712060DC1A00EFB852 /* CECustomEventInterstitial.h */,
+				970411702060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m */,
+				970411712060DC1A00EFB852 /* CEDFPCustomEventInterstitial.h */,
 			);
 			path = Interstitial;
 			sourceTree = "<group>";
@@ -165,8 +132,8 @@
 		9704117F2060DC1A00EFB852 /* Banner */ = {
 			isa = PBXGroup;
 			children = (
-				970411802060DC1A00EFB852 /* CECustomEventCard.m */,
-				970411812060DC1A00EFB852 /* CECustomEventCard.h */,
+				970411802060DC1A00EFB852 /* CEDFPCustomEventCard.m */,
+				970411812060DC1A00EFB852 /* CEDFPCustomEventCard.h */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
@@ -243,29 +210,6 @@
 		97E3A9DB1FDF924B00A5D420 /* CrystalExpressSDK */ = {
 			isa = PBXGroup;
 			children = (
-				97D128FA2031A9AE004A7570 /* ce-premium-global-3.23.0.a */,
-				97E3A9DC1FDF924B00A5D420 /* CEStreamPlacementADHelper.h */,
-				97E3A9DD1FDF924B00A5D420 /* CESplash2AD.h */,
-				97E3A9DE1FDF924B00A5D420 /* I2WAPI+Deprecated.h */,
-				97E3A9DF1FDF924B00A5D420 /* CETableViewADHelper.m */,
-				97E3A9E01FDF924B00A5D420 /* CEStreamADHelper.h */,
-				97E3A9E11FDF924B00A5D420 /* I2WAPI.h */,
-				97E3A9E21FDF924B00A5D420 /* CEAdInvocation.m */,
-				97E3A9E31FDF924B00A5D420 /* CEAdView.h */,
-				97E3A9E41FDF924B00A5D420 /* CEStreamTagADHelper.h */,
-				97E3A9E51FDF924B00A5D420 /* CEStreamPlacementADHelper.m */,
-				97E3A9E61FDF924B00A5D420 /* CENativeAd.h */,
-				97E3A9E71FDF924B00A5D420 /* CrystalExpress.plist */,
-				97E3A9E91FDF924B00A5D420 /* CECardAD.h */,
-				97E3A9EA1FDF924B00A5D420 /* CEStreamADHelper.m */,
-				97E3A9EB1FDF924B00A5D420 /* CETableViewADHelper.h */,
-				97E3A9EC1FDF924B00A5D420 /* CEVideoViewProfile.h */,
-				97E3A9ED1FDF924B00A5D420 /* CERewardedVideoAD.h */,
-				97E3A9EE1FDF924B00A5D420 /* CENativeImageAd.h */,
-				97E3A9EF1FDF924B00A5D420 /* CEStreamTagADHelper.m */,
-				97E3A9F01FDF924B00A5D420 /* CEAdInvocation.h */,
-				97E3A9F11FDF924B00A5D420 /* IWOWMoatMobileAppKit.framework */,
-				97E3A9F21FDF924B00A5D420 /* CEMediaView.h */,
 			);
 			path = CrystalExpressSDK;
 			sourceTree = "<group>";
@@ -378,7 +322,6 @@
 			files = (
 				97E3A9B21FDF8A8400A5D420 /* LaunchScreen.storyboard in Resources */,
 				97E3A9AF1FDF8A8400A5D420 /* Assets.xcassets in Resources */,
-				97E3A9F61FDF924B00A5D420 /* CrystalExpress.plist in Resources */,
 				97D128EC20313A97004A7570 /* NativeContentAdView.xib in Resources */,
 				97E3A9AD1FDF8A8400A5D420 /* Main.storyboard in Resources */,
 			);
@@ -406,15 +349,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				970411832060DC1A00EFB852 /* UIView+CELayoutAdditions.m in Sources */,
-				97E3A9F91FDF924B00A5D420 /* CEStreamTagADHelper.m in Sources */,
-				97E3A9F51FDF924B00A5D420 /* CEStreamPlacementADHelper.m in Sources */,
-				970411822060DC1A00EFB852 /* CECustomEventInterstitial.m in Sources */,
-				97E3A9F31FDF924B00A5D420 /* CETableViewADHelper.m in Sources */,
-				97E3A9F41FDF924B00A5D420 /* CEAdInvocation.m in Sources */,
+				970411822060DC1A00EFB852 /* CEDFPCustomEventInterstitial.m in Sources */,
 				97E3A9AA1FDF8A8400A5D420 /* ViewController.m in Sources */,
 				97E3A9B51FDF8A8400A5D420 /* main.m in Sources */,
-				97E3A9F81FDF924B00A5D420 /* CEStreamADHelper.m in Sources */,
-				970411882060DC1A00EFB852 /* CECustomEventCard.m in Sources */,
+				970411882060DC1A00EFB852 /* CEDFPCustomEventCard.m in Sources */,
 				97E3A9A71FDF8A8400A5D420 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

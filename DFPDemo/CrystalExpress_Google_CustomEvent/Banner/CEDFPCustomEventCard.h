@@ -1,4 +1,4 @@
-//  Minimum support Intowow SDK 3.14.0
+//  Minimum support Intowow SDK 3.27.0
 //
 //  CECustomEventCard.h
 //
@@ -9,6 +9,6 @@
 
 @import GoogleMobileAds;
 
-@interface CECustomEventCard : NSObject<GADCustomEventBanner>
+@interface CEDFPCustomEventCard : NSObject<GADCustomEventBanner>
 
 @end

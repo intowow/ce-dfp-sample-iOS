@@ -1,11 +1,11 @@
-//  Minimum support Intowow SDK 3.20.0
+//  Minimum support Intowow SDK 3.27.0
 //
 //  CECustomEventInterstitial.m
 //
 //  Copyright © 2017 intowow. All rights reserved.
 //
 
-#import "CECustomEventInterstitial.h"
+#import "CEDFPCustomEventInterstitial.h"
 #import "CESplash2AD.h"
 
 #define LoadAdTimeout 1
@@ -13,14 +13,14 @@
 /// Constant for CrystalExpress Ad Network custom event error domain.
 static NSString *const customEventErrorDomain = @"com.intowow.CrystalExpress";
 
-@interface CECustomEventInterstitial () <CESplash2ADDelegate>
+@interface CEDFPCustomEventInterstitial () <CESplash2ADDelegate>
 
 @property (nonatomic, strong) CESplash2AD *ceSplashAD;
 
 @end
 
 
-@implementation CECustomEventInterstitial
+@implementation CEDFPCustomEventInterstitial
 
 @synthesize delegate;
 
@@ -35,9 +35,12 @@ static NSString *const customEventErrorDomain = @"com.intowow.CrystalExpress";
         return;
     }
 
-    self.ceSplashAD = [[CESplash2AD alloc] initWithPlacement:placement];
+    CERequestInfo *info = [CERequestInfo new];
+    info.placement = placement;
+    info.timeout = LoadAdTimeout;
+    self.ceSplashAD = [[CESplash2AD alloc] initWithVideoViewProfile:CEVideoViewProfileSplash2DefaultProfile];
     self.ceSplashAD.delegate = self;
-    [self.ceSplashAD loadAdWithTimeout:LoadAdTimeout];
+    [self.ceSplashAD loadAdWithInfo:info];
 }
 
 - (void)presentFromRootViewController:(nonnull UIViewController *)rootViewController {
